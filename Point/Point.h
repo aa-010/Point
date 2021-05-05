@@ -1,4 +1,5 @@
-
+#ifndef POINT_H
+#define POINT_H
 #include<iostream>
 
 using namespace std;
@@ -26,8 +27,5 @@ public:
 	bool operator!=(const CPoint& other);
 
 	CPoint& operator++();
-	CPoint& operator++(int value);
-
-
-};
-
+	CPoint& operator++(int value);;
+#endif
